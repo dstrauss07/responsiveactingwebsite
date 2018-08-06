@@ -1,0 +1,27 @@
+body {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    background-color:lightcyan;
+}
+main,aside{
+    box-sizing: border-box;
+}
+aside{
+   border: 1px solid red;
+}
+main{
+    border: 1px solid blue;
+}
+
+@media(min-width:480px) {
+    nav, nav ul, nav ul li,#main-page{
+        display:flex;
+    }
+    aside{
+        width:50%;
+    }
+    main{
+        width:50%;
+    }
+}
