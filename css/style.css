@@ -13,15 +13,49 @@ aside{
 main{
     border: 1px solid blue;
 }
-
-@media(min-width:480px) {
-    nav, nav ul, nav ul li,#main-page{
-        display:flex;
-    }
-    aside{
-        width:50%;
-    }
-    main{
-        width:50%;
-    }
+nav{
+    background:gray;
+    padding: .5rem 0;}
+nav ul{
+    list-style:none;
+    display:flex;
+    margin:0;
+    padding:0;
+    max-width:80%;
+    margin:auto;
+    justify-content:center;
 }
+
+nav li {
+    margin: 0;
+    padding:0 10%;
+}
+
+nav a, #logo a{
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:white;
+    background-color:black;
+}
+
+#logo{
+    text-align:center;
+    padding:.7rem;
+}
+
+#logo a{
+    color:green;
+    font-size: 1.3rem;
+}
+
+#logo a:hover{
+    color:red;
+    font-size:1.4rem;
+}
+
+picture{
+   max-width:100%;
+}
+

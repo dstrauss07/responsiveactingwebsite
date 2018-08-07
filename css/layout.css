@@ -1,0 +1,11 @@
+@media(min-width:480px) {
+    nav, nav ul, nav ul li,#main-page{
+        display:flex;
+    }
+    aside{
+        width:50%;
+    }
+    main{
+        width:50%;
+    }
+}
