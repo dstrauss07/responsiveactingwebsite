@@ -21,11 +21,12 @@ nav a, #logo a{
 
 #logo a{
     color:rgb(124, 177, 235);
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Raleway', cursive;
 }
 
 #logo a:hover{
-    color:#FF0C00;;
+    color:rgb(255, 254, 168);
 }
 
 nav{
@@ -49,11 +50,11 @@ nav li {
 
 nav a{
     color:rgb(195, 212, 99);
+    font-size:1.1rem;
 }
 
 nav a:hover{
-    color:rgb(255, 254, 168);
-    background-color:#0B0703;
+    color:rgb(255, 255, 255);
 }
 
 picture img{
