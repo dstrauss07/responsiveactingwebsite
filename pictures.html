@@ -28,24 +28,31 @@
     </header>
     <aside>
         <section id="thumb">
-            <img src="images/business/businessthumb.jpg" alt="Business Headshot">
-            <img src="images/commercial/commericalthumbnail.jpg" alt="Commercial Headshot">
-            <img src="images/cop/SandyCopThumbnail.jpg" alt="Dramatic Headshot">
-            <img src="images/green/GreenJacketThumbnail.jpg" alt="Dramatic Headshot">
-            <img src="images/raw/rawthumbnail.jpg" alt="Dramatic Headshot">
+            
+                <img id="thumb-1" src="images/business/businessthumb.jpg" alt="Business Headshot">
+            
+           
+                <img id="thumb-2" src="images/commercial/commericalthumbnail.jpg" alt="Commercial Headshot"> 
+          
+                <img id="thumb-3" src="images/cop/SandyCopThumbnail.jpg" alt="Dramatic Headshot">
+            
+          
+                <img id="thumb-4" src="images/dramatic/GreenJacketThumbnail.jpg" alt="Dramatic Headshot">
+          
         </section>
         <h4>Click Picture To View Full Size</h3>
     </aside>
-     <main>
-        <picture id="active-picture">
-            <source media="(min-width: 1000px)" srcset="images/cop/sandycoplarge.jpg, images/cop/sandycoplarge2x.jpg 2x">
-            <source media="(min-width: 480px)" srcset="images/cop/sandycop.jpg, images/cop/sandycoplarge.jpg 2x">
-            <img src="images/cop/SandyCop.jpg" srcset="images/cop/SandyCopMobile.jpg, images/cop/SandyCopMobile2x.jpg 2x" alt="Sandra Patton Cop">
+    <main id="active-picture">
+        <picture>
+            <source media="(min-width: 1000px)" srcset="images/cop/cop2.jpg, images/cop/cop3.jpg 2x">
+            <source media="(min-width: 480px)" srcset="images/cop/cop1.jpg, images/cop/cop2.jpg 2x">
+            <img src="images/cop/cop1.jpg" srcset="images/cop/copmobile1.jpg, images/cop/copmobile2.jpg 2x" alt="Sandra Patton Cop">
         </picture>
 
     </main>
 
-    <footer>Contact Evolution Talent Agency at 770-296-2822 for booking inquiries</footer>
+    <footer>Contact Evolution Talent Agency at 770-296-2822</footer>
+    <script src="js/thumb.js"></script>
 </body>
 
 </html>
