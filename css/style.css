@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Raleway|Roboto:700');
+@import url('https://fonts.googleapis.com/css?family=Modern+Antiqua|Indie+Flower|Raleway|Roboto:700');
 
 body, p, picture {
     margin:0;
@@ -13,6 +13,8 @@ main,aside{
 nav a, #logo a{
     text-decoration:none;
    }
+
+   
 
 #logo{
     text-align:center;
@@ -63,7 +65,7 @@ padding: 1.5rem 0 .2rem 0;
 }
 
 #bio{
-    padding: 1rem .7rem;
+    padding: 1rem .7rem 0 .7rem;
     font-size:.9rem;
     color:white;
    font-family: 'Roboto', sans-serif;
@@ -116,11 +118,44 @@ aside h4{
 
 #active-picture img{
     max-width:100%;
-    padding:0 0 .1rem 0;
+    padding: .2rem 0 1rem 0;
     margin:0;
 }
 
-
 #resume-main{
-    background-color:white;
+    background-color:rgb(202, 228, 236);
+}
+
+#resume-main h1{
+    font-size: 1.1rem;
+    font-family: 'Raleway', cursive;
+    text-decoration: underline;
+    padding-left: 1rem;
+    background:whitesmoke;
+}
+
+#resume-main li, #resume-main th, #resume-main td {
+    font-family: 'Modern Antiqua', cursive;
+    font-size: .9rem;
+    text-align:left;
+}
+
+
+#physical{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+#physical ul{
+    margin:0;
+    list-style:none;
+    display: flex;
+    flex-wrap:wrap;
+    flex-basis: auto;
+    justify-content:left;
+}
+
+#physical li{
+    margin-left:-1rem;
+    padding:0 2rem .3rem 0;
 }
