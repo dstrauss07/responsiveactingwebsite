@@ -1,22 +1,118 @@
-@media(min-width:600px) {
+@media(min-width:480px) {
     header{
         display:flex;
+        align-items:center;
     }
    #logo{
        width:25%;
+       background-color:midnightblue;
+  
    }
    nav{
        width:75%;
+       padding: .7rem 0;
+       
    }
     #main-page{
         display:flex;
+        align-items:center;
+        margin-top:1rem;
     }
     #main-page aside{
-        width:70%;
+        width:60%;
+        padding:0 10%;
+        box-sizing: border-box;
+
     }
     #main-page main{
         width:40%;
     }
+    #bio p {
+        padding-bottom:1rem;
+        font-size: .8rem;
+     }
+    #picture-container{
+        display:flex;
+    }
+    #thumb-aside{
+        display:flex;
+        flex-direction:column;
+        width:30%;
+    }
+    #thumb{
+        flex-direction: column;
+        align-items:center;
+        padding:3% 10%;
+    }
+
+    #thumb img{
+        width:60%;
+    }
+    aside h4{
+        justify-content:center;
+        font-size:.7rem;
+        display:flex;
+        order:-1;
+        padding:1rem 0 0 0;
+    }
 
 
+    #active-picture{
+        width:60%;
+        display: flex;
+       padding:5%;
+        box-sizing:border-box;
+        align-items:center;
+    }
+
+    #reel-main{
+        overflow:hidden;
+        width:75%;
+        margin:auto;
+        padding: 0 .2rem;
+    }
+    #reel-main iframe{
+        width: 100%;
+        height: 56.25vw;
+    }
+
+
+}
+@media(min-width:600px) {
+.hide-toggle{
+    display:flex;
+} 
+
+
+}
+@media(min-width:1024px) {
+    #thumb img{
+        width:100%;
+    }
+    aside h4{
+    font-size:1rem;
+    }
+    #active-picture{
+    padding: 2% 12%;
+    }
+    #thumb img{
+        width:40%;
+    }
+    .hide-toggle2{
+        display:flex;
+    }
+    #bio p {
+        font-size: 1rem;
+        padding-bottom:1.5rem;
+    }
+}
+
+@media(min-width:1200px) {
+    #bio p {
+        font-size: 1.15rem;
+        padding-bottom:1.5rem;
+    }
+    #active-picture{
+        padding: 0 12%;
+}
 }
