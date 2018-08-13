@@ -60,13 +60,13 @@ nav a:hover{
 }
 
 #main-picture img{
-padding: 1.5rem 0 .2rem 0;
+padding: 0;
  max-width:100%;
 }
 
 #bio{
-    padding: 1rem .7rem 0 .7rem;
-    font-size:.9rem;
+    padding: .1rem .7rem 0 .7rem;
+    font-size:.75rem;
     color:white;
    font-family: 'Roboto', sans-serif;
 }
@@ -108,9 +108,11 @@ footer{
 }
 
 #thumb img{
+    display:flex;
     width:25%;
     padding: 0 .2rem;
     max-width:200px;
+    max-height:200px;
 }
 
 aside h4{
