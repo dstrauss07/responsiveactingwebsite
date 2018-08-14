@@ -46,7 +46,8 @@
     }
 
     #thumb img{
-        width:60%;
+        width:4.5rem;
+        height:4.5rem;
     }
     aside h4{
         justify-content:center;
@@ -90,7 +91,8 @@
     padding: 2% 12%;
     }
     #thumb img{
-        width:40%;
+        width:9rem;
+        height:9rem;
     }
     .hide-toggle2{
         display:flex;
