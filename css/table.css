@@ -7,7 +7,7 @@
     and (max-device-width: 1024px)  {
 		
 		/* Force table to not be like tables anymore */
-		table, thead, tbody, th, td, tr, {
+		table, thead, tbody, th, td, tr {
 			display: block;
 		}
 
