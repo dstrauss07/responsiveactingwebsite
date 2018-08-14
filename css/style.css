@@ -18,7 +18,7 @@ nav a, #logo a{
 
 #logo{
     text-align:center;
-    padding:.7rem;
+    padding:.2rem;
 }
 
 #logo a{
@@ -33,7 +33,7 @@ nav a, #logo a{
 
 nav{
     background:#2E435A;
-    padding: .5rem 0;}
+    padding: .2rem 0;}
 nav ul{
     list-style:none;
     display:flex;
