@@ -39,9 +39,9 @@
 			position: absolute;
 			/* Top/left values mimic padding */
 			top: 0;
-			left: 6px;
+			left: .5rem;
 			width: 45%;
-			padding-right: 10px;
+			padding-right:1rem;
 			white-space: nowrap;
         }
         
