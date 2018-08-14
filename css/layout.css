@@ -64,18 +64,12 @@
         box-sizing:border-box;
         align-items:center;
     }
-
-    #reel-main{
-        overflow:hidden;
-        width:75%;
-        margin:auto;
-        padding: 0 .2rem;
+    #resume-main h1{
+        font-size: 1.2rem;
     }
-    #reel-main iframe{
-        width: 100%;
-        height: 56.25vw;
+    #resume-main li, #resume-main table th, #resume-main table td{
+        font-size: .9rem;
     }
-
 
 }
 @media(min-width:600px) {
@@ -114,5 +108,13 @@
     }
     #active-picture{
         padding: 0 12%;
+    }   
 }
+
+@media(orientation:landscape){
+    #reel-main{
+        padding:0;
+        width:120vh;
+        margin:auto;
+      }
 }
