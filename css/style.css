@@ -143,7 +143,7 @@ aside h4{
     background:whitesmoke;
 }
 
-#resume-main li, #resume-main th, #resume-main td {
+#resume-main li, #resume-main table th, #resume-main table td {
     font-family: 'Modern Antiqua', cursive;
     font-size: .9rem;
     text-align:left;
