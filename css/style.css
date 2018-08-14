@@ -110,6 +110,8 @@ footer{
 #thumb img{
     display:flex;
     width:25%;
+    height: 25vw;
+    box-sizing: border-box;
     padding: 0 .2rem;
     max-width:200px;
     max-height:200px;
