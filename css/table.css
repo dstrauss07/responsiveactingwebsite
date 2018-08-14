@@ -7,7 +7,7 @@
     and (max-device-width: 1024px)  {
 			*/
 		/* Force table to not be like tables anymore */
-		table, thead, tbody, #acting-role th, #acting-role td, #acting-role tr, #theater th, #theater td, #theater tr, #training th, #training td, #training tr  {
+		table, thead, tbody, th, td, tr, {
 			display: block;
 		}
 
@@ -19,7 +19,7 @@
 		}
 
 		tr {
-      margin: 0 0 1rem 0;
+      margin: 0 0 2rem 0;
     }
       
     tr:nth-child(odd) {
