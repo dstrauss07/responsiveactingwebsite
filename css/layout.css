@@ -99,6 +99,9 @@
         font-size: 1rem;
         padding-bottom:1.5rem;
     }
+    #resume-main li, #resume-main table th, #resume-main table td{
+        font-size: 1.05rem;
+    }
 }
 
 @media(min-width:1200px) {
@@ -114,7 +117,7 @@
 @media(orientation:landscape){
     #reel-main{
         padding:0;
-        width:120vh;
+        width:110vh;
         margin:auto;
       }
 }
