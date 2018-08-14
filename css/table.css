@@ -1,24 +1,24 @@
 /*
 	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
-
+*/
 	@media
 	  only screen 
     and (max-width: 760px), (min-device-width: 768px) 
     and (max-device-width: 1024px)  {
-	*/
+
 		/* Force table to not be like tables anymore */
-		table, thead, tbody, th, td, tr {
+		table, thead, tbody, #acting-role th, #acting-role td, #acting-role tr, #theater th, #theater td, #theater tr, #training th, #training td, #training tr  {
 			display: block;
 		}
 
 		/* Hide table headers (but not display: none;, for accessibility) */
-		thead tr {
+		thead #acting-role tr {
 			position: absolute;
 			top: -9999px;
 			left: -9999px;
 		}
 
-    tr {
+    #acting-role tr {
       margin: 0 0 1rem 0;
     }
       
@@ -60,6 +60,3 @@
         #training td:nth-of-type(2):before { content: "Teacher"; }
         #training td:nth-of-type(3):before { content: "Location"; }
 	}
-
-
-	@media
