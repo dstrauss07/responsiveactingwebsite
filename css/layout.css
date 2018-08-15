@@ -1,4 +1,4 @@
-@media(min-width:480px) {
+@media(min-width:610px) {
     header{
         display:flex;
         align-items:center;
@@ -14,7 +14,7 @@
        }
 
     nav li{
-        padding:0 10%;
+        padding:0 2rem;
     }
     #main-page{
         display:flex;
@@ -75,15 +75,19 @@
         font-size: .9rem;
     }
 
-}
-@media(min-width:600px) {
 .hide-toggle{
     display:flex;
 } 
+nav li{
+    padding:0 3.5rem;
+}
 
 
 }
 @media(min-width:1024px) {
+    nav li{
+        padding:0 5rem;
+    }
     #thumb img{
         width:100%;
     }
@@ -107,6 +111,7 @@
     #resume-main li, #resume-main table th, #resume-main table td{
         font-size: 1.05rem;
     }
+
 }
 
 @media(min-width:1200px) {
@@ -122,7 +127,7 @@
 @media(orientation:landscape){
     #reel-main{
         padding:2rem 0 0 0;
-        width:75%;
+        width:100vh;
         margin:auto;
         box-sizing:border-box;
       }

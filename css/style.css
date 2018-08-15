@@ -37,6 +37,7 @@ nav a, #logo a{
 nav{
     background:#2E435A;
     padding: .2rem 0;}
+    
 nav ul{
     list-style:none;
     display:flex;
