@@ -1,3 +1,41 @@
+@media(min-width:480px) {
+    #picture-container{
+        display:flex;
+    }
+    #thumb-aside{
+        display:flex;
+        flex-direction:column;
+        width:30%;
+    }
+    #thumb{
+        flex-direction: column;
+        align-items:center;
+        padding:3% 10%;
+    }
+
+    #thumb img{
+        width:6rem;
+        height:6rem;
+    }
+
+    aside h4{
+        justify-content:center;
+        font-size:.7rem;
+        display:flex;
+        order:-1;
+        padding:1rem 0 0 0;
+    }
+
+    #active-picture{
+        width:60%;
+        display: flex;
+       padding:1rem 5%;
+        box-sizing:border-box;
+        align-items:center;
+    }
+
+}
+
 @media(min-width:610px) {
     header{
         display:flex;
@@ -34,45 +72,21 @@
         padding-bottom:1rem;
         font-size: .8rem;
      }
-    #picture-container{
-        display:flex;
-    }
-    #thumb-aside{
-        display:flex;
-        flex-direction:column;
-        width:30%;
-    }
-    #thumb{
-        flex-direction: column;
-        align-items:center;
-        padding:3% 10%;
+
+     #thumb img{
+        width:7rem;
+        height:7rem;
     }
 
-    #thumb img{
-        width:4.5rem;
-        height:4.5rem;
-    }
-    aside h4{
-        justify-content:center;
-        font-size:.7rem;
-        display:flex;
-        order:-1;
-        padding:1rem 0 0 0;
-    }
-
-
-    #active-picture{
-        width:60%;
-        display: flex;
-       padding:5%;
-        box-sizing:border-box;
-        align-items:center;
-    }
     #resume-main h1{
         font-size: 1.2rem;
     }
     #resume-main li, #resume-main table th, #resume-main table td{
         font-size: .9rem;
+    }
+
+    #active-picture{
+        padding:1rem 8%;
     }
 
 .hide-toggle{
@@ -88,14 +102,8 @@ nav li{
     nav li{
         padding:0 5rem;
     }
-    #thumb img{
-        width:100%;
-    }
     aside h4{
     font-size:1rem;
-    }
-    #active-picture{
-    padding: 2% 12%;
     }
     #thumb img{
         width:9rem;
@@ -111,7 +119,9 @@ nav li{
     #resume-main li, #resume-main table th, #resume-main table td{
         font-size: 1.05rem;
     }
-
+    #active-picture{
+        padding:1rem 10%;
+    }
 }
 
 @media(min-width:1200px) {
@@ -120,8 +130,8 @@ nav li{
         padding-bottom:1.5rem;
     }
     #active-picture{
-        padding: 0 12%;
-    }   
+        padding:1rem 12%;
+    }
 }
 
 @media(orientation:landscape){
