@@ -118,8 +118,8 @@
 
 @media(orientation:landscape){
     #reel-main{
-        padding:0;
-        width:110vh;
+        padding:2rem 0 0 0;
+        width:75%;
         margin:auto;
       }
 }
