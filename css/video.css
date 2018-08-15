@@ -8,7 +8,7 @@
 }
 
 .youtube-player iframe {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -23,8 +23,8 @@
     left: 0;
     margin: auto;
     max-width: 100%;
-    width: 50%;
-    position: relative;
+    width: 100%;
+    position: absolute;
     right: 0;
     top: 0;
     border: none;
@@ -46,3 +46,10 @@
     cursor: pointer;
 }
 
+
+@media(min-width:480px){
+
+    .youtube-player img {
+        width: 50%;
+    }
+}
