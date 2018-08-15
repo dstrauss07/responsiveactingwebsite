@@ -11,8 +11,11 @@
    nav{
        width:75%;
        padding: .7rem 0;
-       
-   }
+       }
+
+    nav li{
+        padding:0 10%;
+    }
     #main-page{
         display:flex;
         align-items:center;
@@ -121,5 +124,6 @@
         padding:2rem 0 0 0;
         width:75%;
         margin:auto;
+        box-sizing:border-box;
       }
 }
